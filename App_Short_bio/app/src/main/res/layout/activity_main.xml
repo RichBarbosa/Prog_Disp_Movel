@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobre mim!"
+            android:id="@+id/TxtTitulo"
+            android:layout_marginTop="24dp"
+            android:textSize="32sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="escolha a opção:"
+            android:id="@+id/TxtSubTitulo"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/TxtTitulo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobre"
+            android:id="@+id/BtnSobre"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/TxtSubTitulo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Formação"
+            android:id="@+id/BtnFormacao"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/BtnSobre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experiência"
+            android:id="@+id/BtnExperiencia"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/BtnFormacao"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Objetivos"
+            android:id="@+id/BtnObjetivo"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/BtnExperiencia"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
