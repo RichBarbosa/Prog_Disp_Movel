@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tarefas</string>
+    <string name="titulo_lista">Lista de Tarefas</string>
+    <string name="titulo_cadastro">Cadastro de Tarefas</string>
+    <string-array name="opcoes_spinner">
+        <item>Atrasada</item>
+        <item>Fazendo</item>
+        <item>Feita</item>
+    </string-array>
+</resources>
